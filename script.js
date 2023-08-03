@@ -1,10 +1,8 @@
 const chuckNorrisFactZone = document.querySelector(".chuckNorrisFactZone");
-const selectAValueBar = document.querySelector(".selectAValueBar");
-const selectedValue = document.querySelector('option[value]');
-
 
 function displayFact(fact) {
-  chuckNorrisFactZone.innerHTML = `<p>${fact}</p>`;
+  chuckNorrisFactZone.innerHTML = `
+  <p>${fact}</p>`;
 };
 
 
